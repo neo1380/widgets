@@ -33,7 +33,9 @@ const Dropdown = ({ options, selected, onSelectionChange, label }) => {
 					</div>
 				</div>
 			</div>
-			<div style={{ color: colorValue }}>this text is {selected.value}</div>
+			<div style={{ color: colorValue }}>
+				The color of text is {selected.value} because of selection in dropdown
+			</div>
 		</React.Fragment>
 	);
 };
