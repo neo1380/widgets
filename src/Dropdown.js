@@ -34,7 +34,7 @@ const Dropdown = ({ options, selected, onSelectionChange, label }) => {
 				</div>
 			</div>
 			<div style={{ color: colorValue }}>
-				The color of text is {selected.value} because of selection in dropdown
+				The color of text is {selected.value} because of selection in dropdown.testing auto deploy
 			</div>
 		</React.Fragment>
 	);
